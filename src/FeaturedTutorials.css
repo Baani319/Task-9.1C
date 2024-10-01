@@ -1,0 +1,91 @@
+.featured-tutorials {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .featured-tutorials h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .tutorials-list {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
+  }
+  
+  .tutorial-card {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 0 10px;
+  }
+  
+  .tutorial-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .tutorial-card h3 {
+    margin: 15px 0 10px;
+    font-size: 22px;
+    color: #2c3e50;
+  }
+  
+  .tutorial-card p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .tech-tag {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  .tutorial-card hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+  }
+  
+  .author-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .star {
+    color: #ffeb3b;
+  }
+  
+  .author {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .see-all-tutorials {
+    margin-top: 30px;
+  }
+  
+  .see-all-tutorials button {
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .see-all-tutorials button:hover {
+    background-color: #5c5c92;
+  }
+  

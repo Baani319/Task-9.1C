@@ -1,0 +1,12 @@
+.main-image {
+    width: 100%; 
+    overflow: hidden; 
+    position: relative; 
+  }
+  
+  .main-image img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+  }
+  
