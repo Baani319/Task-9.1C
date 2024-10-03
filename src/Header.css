@@ -12,23 +12,23 @@
 }
 
 .search-bar {
-  flex-grow: 1; /* Allow the search bar to grow and take available space */
-  margin: 0 20px; /* Add margin for spacing around the search bar */
+  flex-grow: 1; 
+  margin: 0 20px; 
 }
 
 .search-bar input {
-  padding: 10px; /* Increase padding for a better look */
-  width: 100%; /* Set width to 100% of its container */
-  max-width: 500px; /* Set a max width for the search bar */
-  border: 1px solid #ccc; /* Light border for the search bar */
-  border-radius: 4px; /* Rounded corners */
-  box-sizing: border-box; /* Include padding in width calculation */
-  transition: border-color 0.3s; /* Smooth transition on focus */
+  padding: 10px; 
+  width: 100%; 
+  max-width: 500px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  transition: border-color 0.3s; 
 }
 
 .search-bar input:focus {
-  border-color: #5c5c92; /* Change border color on focus */
-  outline: none; /* Remove outline on focus */
+  border-color: #5c5c92; 
+  outline: none; 
 }
 
 .nav-buttons {
@@ -44,7 +44,7 @@
   color: white; 
   border: none; 
   border-radius: 3px; 
-  transition: background-color 0.3s; /* Smooth transition for button hover */
+  transition: background-color 0.3s; 
 }
 
 .nav-buttons button:hover {

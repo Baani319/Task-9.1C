@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Route, Routes, useNavigate } from 'react-router-dom'; // Import useNavigate
+import { Route, Routes, useNavigate } from 'react-router-dom'; 
 import Header from './Header';
 import MainImage from './MainImage';
 import FeaturedArticles from './FeaturedArticles';
@@ -10,24 +10,24 @@ import Signup from './components/SignUp';
 import './App.css';
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // State to manage authentication
-  const navigate = useNavigate(); // Initialize useNavigate
+  const [isLoggedIn, setIsLoggedIn] = useState(false); 
+  const navigate = useNavigate(); 
 
   useEffect(() => {
-    // Check localStorage on initial render
+    
     const loggedInStatus = localStorage.getItem('isLoggedIn') === 'true';
     setIsLoggedIn(loggedInStatus);
   }, []);
 
   const handleLogin = () => {
     setIsLoggedIn(true);
-    localStorage.setItem('isLoggedIn', 'true'); // Set login status in localStorage
+    localStorage.setItem('isLoggedIn', 'true'); 
   };
 
   const handleLogout = () => {
     setIsLoggedIn(false);
-    localStorage.removeItem('isLoggedIn'); // Remove login status from localStorage
-    navigate('/login'); // Redirect to login page after logout
+    localStorage.removeItem('isLoggedIn'); 
+    navigate('/login'); 
   };
 
   return (

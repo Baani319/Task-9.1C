@@ -1,9 +1,8 @@
-// src/components/Signup.js
 import React, { useState } from 'react';
-import { auth, db } from '../utils/firebase'; // Import Firebase config
+import { auth, db } from '../utils/firebase'; 
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { setDoc, doc } from 'firebase/firestore';
-import './SignUp.css'; // Optional: Create a CSS file for styling
+import './SignUp.css'; 
 
 function Signup() {
   const [name, setName] = useState('');
@@ -78,7 +77,7 @@ function Signup() {
             required
           />
         </div>
-        {errorMessage && <p className="error-message">{errorMessage}</p>} {/* Show error message if any */}
+        {errorMessage && <p className="error-message">{errorMessage}</p>} {/* */}
         <button type="submit">Sign Up</button>
       </form>
     </div>
